@@ -3,7 +3,7 @@ name: macOS Build
 
 # yamllint disable-line rule:truthy
 on:
-  - push
+  workflow_dispatch:
 
 jobs:
   build:
